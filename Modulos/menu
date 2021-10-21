@@ -919,7 +919,7 @@ creditoss () {
 clear 
 msg -bar
 msg -tit
-echo -ne " \033[1;93m          CREDITOS Y REGISTRO DE CAMBIOS\n"
+echo -ne " \033[1;93m          CREDITOS Y REGISTRO DE CAMBIOS Dan\n"
 msg -bar
 [[ -e ${SCPdir}/message.txt ]] && msg -bra " RESELLER AUTORIZADO: \n\033[1;96m $(cat ${SCPdir}/message.txt) "
 [[ -e ${SCPdir}/key.txt ]] && msg -bra " KEY DE REGISTRO:\n \033[1;93m $(cat ${SCPdir}/key.txt)"
