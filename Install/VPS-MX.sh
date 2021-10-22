@@ -212,7 +212,7 @@ MIP2=$(wget -qO- ifconfig.me)
 [[ "$MIP" != "$MIP2" ]] && IP="$MIP2" || IP="$MIP"
 }  
 function_verify () {
-wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/ArchivosUtilitarios/trans &> /dev/null
+wget -O /usr/bin/trans https://raw.githubusercontent.com/DanssBot/ADMINVPS/main/Install/ArchivosUtilitarios/trans &> /dev/null
 wget -O /etc/versin_script https://raw.githubusercontent.com/DanssBot/ADMINVPS/main/Install/Version &> /dev/null
 wget -O /usr/bin/SPR https://raw.githubusercontent.com/DanssBot/ADMINVPS/main/Install/SPR/SPR &> /dev/null
 chmod +x /usr/bin/SPR
@@ -245,7 +245,7 @@ clear
 clear
 msg -bar2
 msg -bar2
-figlet "    -VPS MX-" | lolcat 
+figlet "    -ADMIN VPS-" | lolcat 
 echo -e "     ESTE SCRIPT ESTA OPTIMIZADO A IDIOMA ESPAÑOL"
 msg -bar2
 pv="$(echo es)"
